@@ -1,0 +1,62 @@
+h1{
+  margin-top:15vh;
+  font-weight:400;
+  }
+body{
+  margin:0px;
+  padding:0px;
+  background-color:#edf2f1;
+  text-align:center;
+  font-family:tahoma;
+  }
+body #ajax{
+  background-color:#344755;
+  padding:1px;
+  border-radius:10px;
+  width:30%;
+  height:auto;
+  }
+body #ajax .formdiv{
+  margin-top:5vh;
+  }
+body #ajax .formdiv .button{
+  display:inline-block;
+  padding:0 20px;
+  margin:5px;
+  height:35px;
+  width:70%;
+  font-size:15px;
+  font-weight:900;
+  text-transform:uppercase;
+  border-style:hidden;
+  border-radius:10px;
+  background:#3c92fd;
+  color:#dcdcdc;
+  cursor:pointer;
+  font-family:tahoma;
+  transition:background .1s linear;
+  }
+body #ajax .formdiv .button:hover{
+  background-color:#0a76fc;
+  }
+body #ajax .formdiv #name,body #ajax .formdiv #last,body #ajax .formdiv #email{
+  padding:8px 20px;
+  font-size:15px;
+  width:19vw;
+  font-family:tahoma;
+  border-radius:10px;
+  border:1px #808080 solid;
+  margin:1px;
+  height:auto;
+  }
+.form-message{
+  font-size:20px;
+  font-weight:200;
+  font-family:monospace;
+  }
+.form-message .form-success{
+  color:#459b5e;
+  }
+.form-message .form-error{
+  color:#e66b57;
+}

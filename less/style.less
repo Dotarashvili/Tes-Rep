@@ -1,0 +1,73 @@
+@import 'vars';
+h1{
+  margin-top: 15vh;
+  font-weight: 400;
+}
+body{
+  margin : 0px;
+  padding : 0px;
+  background-color: @background;
+  text-align:center;
+  font-family:@fontmain;
+
+    #ajax{
+      background-color: @formcolor;
+      padding : 1px;
+      border-radius: @radius;
+      width: 30%;
+      height: auto;
+
+        .formdiv{
+          margin-top: 5vh;
+
+          .button{
+            display: inline-block;
+            padding: 0 20px;
+            margin: 5px;
+            height: 35px;
+            width: 70%;
+            font-size: 15px;
+            font-weight: 900;
+            text-transform: uppercase;
+            border-style: hidden;
+            border-radius: @radius;
+            background: @primarybtn;
+            color: @btntext;
+            cursor: pointer;
+            font-family: @fontmain;
+
+            transition: background .1s linear;
+
+            &:hover{
+              background-color:darken(@primarybtn, 10%);
+            }
+        }
+
+
+          #name,
+          #last,
+          #email{
+            padding:8px 20px;
+            font-size: 15px;
+            width: 19vw;
+            font-family: @fontmain;
+            border-radius: @radius;
+            border: 1px #808080 solid;
+            margin: 1px;
+            height: auto;
+            }
+        }
+    }
+}
+
+.form-message {
+  font-size: 20px;
+  font-weight: 200;
+  font-family: @fontsec;
+}
+.form-message .form-success {
+  color:  @success;
+}
+.form-message .form-error {
+  color:  @error;
+}
